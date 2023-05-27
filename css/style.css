@@ -139,3 +139,15 @@ header p {
 }
 
 /* -----------(>780px)------------ */
+@media (min-width:780px){
+    .cardscontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+        max-width: 900px;
+    }
+    .twocards{
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+}
