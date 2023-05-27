@@ -57,10 +57,11 @@ header p {
 
 
 /* -----------Cards------------ */
-.cardscontainer{
+.cardscontainer {
     max-width: 500px;
     margin: 0 auto;
 }
+
 .cards {
     border-radius: 8px;
     background-color: var(--Very-Light-Gray);
@@ -122,3 +123,19 @@ header p {
     color: hsl(228, 45%, 44%);
 }
 
+/* -----------(>600px)------------ */
+@media (min-width:600px){
+    header{
+        max-width: 525px;
+        margin: 0 auto;
+    }
+
+    header h1{
+        font-size: 2.5em;
+    }
+    header h2{
+        font-size: 2.5em;
+    }
+}
+
+/* -----------(>780px)------------ */
